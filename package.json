@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/mikekistler/cadl-library-demo#readme",
   "dependencies": {
-    "@cadl-lang/compiler": "^0.38.5"
+    "@cadl-lang/compiler": "^0.38.5",
+    "@cadl-lang/rest": "^0.38.1"
   },
   "devDependencies": {
     "typescript": "^4.9.4"

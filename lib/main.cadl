@@ -1,7 +1,11 @@
 import "../dist/index.js";
+import "@cadl-lang/rest";
+
+using Cadl.Http;
 
 namespace MyLibrary;
 model Person {
+  @path
   name: string;
   age: uint8;
 }
