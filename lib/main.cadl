@@ -1,0 +1,7 @@
+import "../dist/index.js";
+
+namespace MyLibrary;
+model Person {
+  name: string;
+  age: uint8;
+}
