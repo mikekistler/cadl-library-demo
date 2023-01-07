@@ -1,2 +1,13 @@
 import "@cadl-lang/rest";
 import "@cadl-lang/openapi3";
+import "cadl-library-demo";
+
+using Cadl.Http;
+using MyLibrary;
+
+@route("/api")
+interface MyApi {
+  @route("/hello")
+  @get
+  hello(): string;
+}
